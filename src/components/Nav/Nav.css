@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Nabla&display=swap");
+.blink {
+  width: 42%;
+  height: 170px;
+  animation: blink 5s infinite;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+}
+@keyframes blink {
+  0% {
+    background: red;
+  }
+  20% {
+    background: green;
+  }
+  40% {
+    background: yellow;
+  }
+  60% {
+    background: blue;
+  }
+  80% {
+    background: orange;
+  }
+  100% {
+    background: red;
+  }
+}
+@-webkit-keyframes blink {
+  0% {
+    background: red;
+  }
+  20% {
+    background: green;
+  }
+  40% {
+    background: yellow;
+  }
+  60% {
+    background: blue;
+  }
+  80% {
+    background: orange;
+  }
+  100% {
+    background: red;
+  }
+}
+.nav {
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-area {
+  width: 99%;
+  height: 155px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: blue;
+}
+
+.nav-title {
+  font-size: 3rem;
+  font-style: italic;
+  font-family: "Nabla", cursive;
+}
+
+.title-sub {
+  font-size: 1rem;
+  font-style: normal;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.link {
+  font-family: "Josefin Sans", sans-serif;
+  background-color: white;
+  padding: 2px 5px;
+  border-radius: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.balance {
+  font-weight: 700;  
+}
+
+.link:hover {
+  cursor: pointer;
+  box-shadow: 3px 3px 2px black;
+}

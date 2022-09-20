@@ -1,0 +1,16 @@
+.dsb table {    
+    width: 98vw;
+    border: solid 1px blue;
+}
+
+.dsb table tr, .dsb table td {
+    margin: 10px;
+    border-top: solid 1px blue;
+    font-size: 20px;
+    font-family: "Josefin sans";
+    padding: 20px;
+}
+
+.dsb {
+    height: 100vh;
+}
