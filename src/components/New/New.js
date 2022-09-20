@@ -4,9 +4,9 @@ import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 
 const New = ({ newAd }) => {
-  const [title, setTitle] = useState();
-  const [description, setDescription] = useState();
-  const [image, setImage] = useState();
+  const [title, setTitle] = useState("");
+  const [description, setDescription] = useState("");
+  const [image, setImage] = useState("");
   const nav = useNavigate();
 
   const submitAdvert = async () => {

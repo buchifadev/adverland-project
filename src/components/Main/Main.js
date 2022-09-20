@@ -6,10 +6,10 @@ const Main = ({ account, ads, viewAd, fundAd }) => {
   return (
     <div className="ads">
       {ads?.map((ad) => (
-        <div className="rim">
+        <div className="rim" key={ad.index}>
           <div className="ad">
             <div className="at">{ad.title}</div>
-            <img className="ad-img" src={ad.imageUrl} />
+            <img className="ad-img" src={ad.imageUrl} alt="" />
             <div className="ad-description">{ad.description}</div>
             <div className="ad-views">Views: {ad.views}</div>
             <div className="ad-bal">
