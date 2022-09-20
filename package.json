@@ -1,15 +1,17 @@
 {
   "name": "adverland-project",
-  "homepage": "",
+  "homepage": "https://buchifadev.github.io/adverland-project",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {        
-    "react": "^17.0.2",    
+  "dependencies": {
+    "@celo/contractkit": "^1.5.2",
+    "bootstrap": "^5.2.1",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.5.0",
     "react-dom": "^17.0.2",
-    "react-icons": "^4.3.1",    
+    "react-icons": "^4.3.1",
     "react-router-dom": "^6.3.0",
     "react-scripts": "4.0.1",
-    "@celo/contractkit": "^1.5.2",
     "web3": "^1.7.0"
   },
   "scripts": {
