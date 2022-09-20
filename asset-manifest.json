@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/adverland-project/static/css/main.af13badf.chunk.css",
+    "main.js": "/adverland-project/static/js/main.805e63c7.chunk.js",
+    "main.js.map": "/adverland-project/static/js/main.805e63c7.chunk.js.map",
+    "runtime-main.js": "/adverland-project/static/js/runtime-main.abe6d48b.js",
+    "runtime-main.js.map": "/adverland-project/static/js/runtime-main.abe6d48b.js.map",
+    "static/css/2.7cf1c5b2.chunk.css": "/adverland-project/static/css/2.7cf1c5b2.chunk.css",
+    "static/js/2.c25f17a0.chunk.js": "/adverland-project/static/js/2.c25f17a0.chunk.js",
+    "static/js/2.c25f17a0.chunk.js.map": "/adverland-project/static/js/2.c25f17a0.chunk.js.map",
+    "index.html": "/adverland-project/index.html",
+    "static/css/2.7cf1c5b2.chunk.css.map": "/adverland-project/static/css/2.7cf1c5b2.chunk.css.map",
+    "static/css/main.af13badf.chunk.css.map": "/adverland-project/static/css/main.af13badf.chunk.css.map",
+    "static/js/2.c25f17a0.chunk.js.LICENSE.txt": "/adverland-project/static/js/2.c25f17a0.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.abe6d48b.js",
+    "static/css/2.7cf1c5b2.chunk.css",
+    "static/js/2.c25f17a0.chunk.js",
+    "static/css/main.af13badf.chunk.css",
+    "static/js/main.805e63c7.chunk.js"
+  ]
+}
